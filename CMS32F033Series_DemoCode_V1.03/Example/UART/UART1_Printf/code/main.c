@@ -72,10 +72,15 @@
 *****************************************************************************/
 extern  _SMG_DEF _SMG[2];
 u8 Test_flag = 0;
+extern _KEY_xx _Key[Key_Number];
 int main(void)
 {		 
 	_SMG[0].Flag = 1;
 	_SMG[0].OnlyOne = 1;	
+//调试 设置默认为开机状态	
+_Key[0].Flag = 3;
+_Device.Power_Flag = 0;	
+//************************
 	SYS_DisableIOCFGProtect();			/*关闭IOCONFIG写保护*/
 	SYS_DisableGPIO0Protect();			/*关闭GPIO0的相关寄存器写保护*/
 	SYS_DisableGPIO1Protect();			/*关闭GPIO1的相关寄存器写保护*/
@@ -105,12 +110,24 @@ T4_TEST_IO = 1;
 	printf("CMS32F033_LightPong_Init\n\r");	
 	while(1)
 	{	
-		SMG_Show_AA(1);
+
 		AD_GetKey();
+		if(_Device.Power_Flag)	//开机
+		{
+				SMG_Show_AA(1);
+		}
+		else	// 关机
+		{
+			SMG_AA_ALL_OFF();
+		}
+		
+		
+		
+	/***************************************/	
 		if(Test_flag)
 		{
 			Test_flag = 0;
-				All_Bright_RGB();
+				//All_Bright_RGB();
 
 		}
 	}

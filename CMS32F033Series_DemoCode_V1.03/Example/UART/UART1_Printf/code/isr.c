@@ -36,6 +36,7 @@
 
 #include "public.h"
 #include "TX1812_5050.h"
+#include "AD_Key.h"
 /****************************************************************************/
 /*	Local pre-processor symbols/macros('#define')
 *****************************************************************************/
@@ -285,12 +286,34 @@ uint16_t Tim_Test = 0;
 extern unsigned int Key_ms;
 u16 Tim_1ms = 0;
 extern u8 Test_flag;
+u16 Auto_ShutDown_Tim = 0;
 void TMR1_IRQHandler(void)
 {
+	
 	/************* 100us *********************/
    if(TMR_GetOverflowIntFlag(TMR1))
 	{
 		TMR_ClearOverflowIntFlag(TMR1);
+		
+		if(_Device.Power_Flag)
+		{
+			Auto_ShutDown_Tim = 0;
+		}
+		else
+		{
+			if((Auto_ShutDown_Tim >= 35000)&(IO_KEY_5 == 1))
+			{// 初始化时无按键长按3.5s后自动关机
+				Auto_ShutDown_Tim = 0;
+				_Device.Power_Flag = 0;
+				PWEN_IO = 0;						
+				printf("已关机\n");
+			}
+			else if(IO_KEY_5 == 0)
+			{
+				Auto_ShutDown_Tim = 0;
+			}
+			else Auto_ShutDown_Tim++;
+		}
 		
 		if(Tim_Test > 5000)
 		{

@@ -13,6 +13,7 @@ unsigned int Key_ms = 0;
 unsigned int AD_Key_Val = 0;
 /***********************************************/
 //extern _GAME_DEF _Game;
+_DEVICE_DEF _Device;
 /***********************************************/
 extern u8 Test_flag;
 void Key_Init_IO(void)
@@ -161,7 +162,7 @@ void AD_GetKey(void)
 				if(_Key[0].Flag == 1)		// 单击
 				{
 					_Key[0].Flag = 0;
-//					printf("K_1\n");
+					printf("K_1\n");
 				Test_flag = 1;
 //			Line_1A_CXN4(0xE1);
 //			Line_1A_CXN4(0xF2);
@@ -176,6 +177,18 @@ void AD_GetKey(void)
 				{
 					_Key[0].Flag = 0;
 					printf("K_1_Long\n");
+					if(_Device.Power_Flag == 0)
+					{
+						_Device.Power_Flag = 1;
+						PWEN_IO = 1;
+						printf("已开机\n");
+					}
+					else 
+					{
+						_Device.Power_Flag = 0;
+						PWEN_IO = 0;						
+						printf("已关机\n");
+					}
 					
 				}
 /********************* 强度“+” ************************************/
@@ -199,24 +212,7 @@ void AD_GetKey(void)
 					_Key[2].Flag = 0;
 				
 					printf("K_3\n");
-//					if(_Game.Status == 0)
-//					{
-//						_Game.Status = 1;
-//						_Game.Direction = 1;
-//						_Game.Ball = 30;
-//					}
-//					else if((_Game.Status == 1)&&(_Game.Ball > 16))
-//					{
-//						_Game.Direction = 1;
-//					}
-//					else if(_Game.Status == 2)
-//					{
-//						_Game.Status = 1;
-//						_Game.Direction = 1;
-//						_Game.Ball = 30;
-//						_Game.Speed = 1000;
-//						_Game.Result = 0;
-//					}
+
 				}
 				else if(_Key[2].Flag == 2)
 				{
@@ -234,25 +230,6 @@ void AD_GetKey(void)
 					
 						printf("K_4\n");
 					
-//					if(_Game.Status == 0)
-//					{
-//						_Game.Status = 1;
-//						_Game.Direction = 0;
-//						_Game.Ball = 1;
-//						_Game.Speed = 1000;
-//					}
-//					else if((_Game.Status == 1)&&(_Game.Ball < 16))
-//					{
-//						_Game.Direction = 0;
-//					}
-//					else if(_Game.Status == 2)
-//					{
-//						_Game.Status = 1;
-//						_Game.Direction = 0;
-//						_Game.Ball = 0;		
-//						_Game.Speed = 1000;
-//						_Game.Result = 0;
-//					}
 				}
 				else if(_Key[3].Flag == 2)
 				{

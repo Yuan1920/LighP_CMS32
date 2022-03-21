@@ -29,3 +29,4 @@
 .\objects\isr.o: ..\Lan_code\public.h
 .\objects\isr.o: ..\code\demo_timer.h
 .\objects\isr.o: ..\Lan_code\TX1812_5050.h
+.\objects\isr.o: ..\Lan_code\AD_Key.h
