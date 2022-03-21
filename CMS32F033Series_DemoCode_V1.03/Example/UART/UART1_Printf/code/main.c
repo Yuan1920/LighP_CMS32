@@ -38,7 +38,7 @@
 #include "TX1812_5050.h"
 
 #include "CXN4016.h"
-
+#include "Game_Operation.h"
 /****************************************************************************/
 /*	Local pre-processor symbols/macros('#define')
 *****************************************************************************/
@@ -114,7 +114,8 @@ T4_TEST_IO = 1;
 		AD_GetKey();
 		if(_Device.Power_Flag)	//开机
 		{
-				SMG_Show_AA(1);
+				SMG_Show_AA(_Game.mode);
+				Game_Mode(_Game.mode);
 		}
 		else	// 关机
 		{

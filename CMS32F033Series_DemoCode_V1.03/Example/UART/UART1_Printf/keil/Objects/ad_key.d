@@ -31,4 +31,5 @@
 .\objects\ad_key.o: ..\code\demo_timer.h
 .\objects\ad_key.o: ..\Lan_code\SMG.h
 .\objects\ad_key.o: ..\Lan_code\TX1812_5050.h
+.\objects\ad_key.o: ..\Lan_code\Game_Operation.h
 .\objects\ad_key.o: ..\Lan_code\CXN4016.h

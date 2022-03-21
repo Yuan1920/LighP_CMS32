@@ -2,7 +2,7 @@
 #include "demo_uart.h"
 #include "SMG.h"
 #include "TX1812_5050.h"
-//#include "Operation.h"
+#include "Game_Operation.h"
 
 #include "CXN4016.h"
 /**********************************/
@@ -195,8 +195,25 @@ void AD_GetKey(void)
 				if(_Key[1].Flag == 1)				
 				{
 					_Key[1].Flag = 0;
-					printf("K_2\n");
-					Line_1A_CXN4(0xFE);
+					//printf("K_2\n");
+					//Line_1A_CXN4(0xFE);
+					if(_Device.Power_Flag)
+					{
+						if(_Game.key_CutMode >= 1)
+						{
+							_Game.key_CutMode = 0;
+							_Game.OnlyOne = 1;
+							if(_Game.mode < 5)
+								_Game.mode++;
+							else _Game.mode = 1;
+						}
+						else _Game.key_CutMode++;
+					}
+					else
+					{
+						_Game.key_CutMode = 0;		// 关机时清理双击
+						
+					}
 				}
 				else if(_Key[1].Flag == 2)
 				{
@@ -212,7 +229,18 @@ void AD_GetKey(void)
 					_Key[2].Flag = 0;
 				
 					printf("K_3\n");
-
+//					if(_Device.Power_Flag)
+//					{
+//						if(_Game.key_CutMode == 1)
+//						{
+//							_Game.key_CutMode = 0;
+//							_Game.OnlyOne = 1;
+//							if(_Game.mode < 5)
+//								_Game.mode++;
+//							else _Game.mode = 1;
+//						}
+//						else _Game.key_CutMode = 1;
+//					}
 				}
 				else if(_Key[2].Flag == 2)
 				{

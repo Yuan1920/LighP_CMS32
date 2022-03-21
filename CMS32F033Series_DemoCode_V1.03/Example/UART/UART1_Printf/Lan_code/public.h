@@ -26,8 +26,10 @@ typedef struct
 {
 	u8 Power_Flag;
 }_DEVICE_DEF;
-
 extern _DEVICE_DEF _Device;
+
+
+
 
 void Delay_1ms(void);
 void Delay_900ns(void);

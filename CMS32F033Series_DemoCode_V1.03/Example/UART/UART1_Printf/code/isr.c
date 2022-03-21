@@ -37,6 +37,7 @@
 #include "public.h"
 #include "TX1812_5050.h"
 #include "AD_Key.h"
+#include "Game_Operation.h"
 /****************************************************************************/
 /*	Local pre-processor symbols/macros('#define')
 *****************************************************************************/
@@ -287,6 +288,7 @@ extern unsigned int Key_ms;
 u16 Tim_1ms = 0;
 extern u8 Test_flag;
 u16 Auto_ShutDown_Tim = 0;
+u16 cl_Key_cut = 0;
 void TMR1_IRQHandler(void)
 {
 	
@@ -298,6 +300,16 @@ void TMR1_IRQHandler(void)
 		if(_Device.Power_Flag)
 		{
 			Auto_ShutDown_Tim = 0;
+			if(_Game.key_CutMode >= 1)		
+			{// 清理两个按键切换模式
+				if(cl_Key_cut > 4000)
+				{
+					cl_Key_cut = 0;
+					_Game.key_CutMode = 0;
+				}
+				else cl_Key_cut++;
+			}
+			else cl_Key_cut = 0;
 		}
 		else
 		{
@@ -313,6 +325,8 @@ void TMR1_IRQHandler(void)
 				Auto_ShutDown_Tim = 0;
 			}
 			else Auto_ShutDown_Tim++;
+			
+			cl_Key_cut = 0;		// 
 		}
 		
 		if(Tim_Test > 5000)

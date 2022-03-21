@@ -32,3 +32,4 @@
 .\objects\main.o: ..\Lan_code\AD_Key.h
 .\objects\main.o: ..\Lan_code\TX1812_5050.h
 .\objects\main.o: ..\Lan_code\CXN4016.h
+.\objects\main.o: ..\Lan_code\Game_Operation.h

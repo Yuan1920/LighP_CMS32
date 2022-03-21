@@ -463,6 +463,11 @@
               <FileType>1</FileType>
               <FilePath>..\Lan_code\TX1812_5050.c</FilePath>
             </File>
+            <File>
+              <FileName>Game_Operation.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Lan_code\Game_Operation.c</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>
