@@ -1,0 +1,367 @@
+Dependencies for Project 'Porject', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (..\..\..\..\Libary\Device\CMS32F033\Source\ARM\startup_cms_m0.s)(0x623726FB)(--cpu Cortex-M0 -g --apcs=interwork -I.\RTE\_Target_1-IC:\Users\Administrator\AppData\Local\Arm\Packs\Cmsemicon\CMS32-Series\1.0.1\Device\CMS32F033\Include-IF:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 529" --pd "CMS32F033 SETA 1"--list .\listings\startup_cms_m0.lst --xref -o .\objects\startup_cms_m0.o --depend .\objects\startup_cms_m0.d)
+F (..\..\..\..\Libary\Device\CMS32F033\Source\system_cms_m0.c)(0x623726FB)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\Libary\CMSIS\Include -I ..\..\..\..\Libary\Device\CMS32F033\Include -I ..\..\..\..\Libary\StdDriver\inc -I ..\Lan_code -I ..\code-I.\RTE\_Target_1-IC:\Users\Administrator\AppData\Local\Arm\Packs\Cmsemicon\CMS32-Series\1.0.1\Device\CMS32F033\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DCMS32F033-o .\objects\system_cms_m0.o --omf_browse .\objects\system_cms_m0.crf --depend .\objects\system_cms_m0.d)
+I (..\..\..\..\Libary\Device\CMS32F033\Include\cms_m0.h)(0x623726FB)
+I (..\..\..\..\Libary\CMSIS\Include\core_cm0.h)(0x623726FB)
+I (F:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\..\..\Libary\CMSIS\Include\core_cmInstr.h)(0x623726FB)
+I (..\..\..\..\Libary\CMSIS\Include\cmsis_armcc.h)(0x623726FB)
+I (..\..\..\..\Libary\CMSIS\Include\core_cmFunc.h)(0x623726FB)
+I (..\..\..\..\Libary\Device\CMS32F033\Include\system_cms_m0.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\system.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\gpio.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\acmp.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\adc0.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\adc1.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\ccp.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\crc.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\epwm.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\hwdiv.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\i2c.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\opa.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\pga.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\ssp.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\timer.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\uart.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\wdt.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\wwdt.h)(0x623726FB)
+F (..\..\..\..\Libary\StdDriver\src\system.c)(0x623726FB)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\Libary\CMSIS\Include -I ..\..\..\..\Libary\Device\CMS32F033\Include -I ..\..\..\..\Libary\StdDriver\inc -I ..\Lan_code -I ..\code-I.\RTE\_Target_1-IC:\Users\Administrator\AppData\Local\Arm\Packs\Cmsemicon\CMS32-Series\1.0.1\Device\CMS32F033\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DCMS32F033-o .\objects\system.o --omf_browse .\objects\system.crf --depend .\objects\system.d)
+I (..\..\..\..\Libary\StdDriver\inc\system.h)(0x623726FB)
+I (..\..\..\..\Libary\Device\CMS32F033\Include\cms_m0.h)(0x623726FB)
+I (..\..\..\..\Libary\CMSIS\Include\core_cm0.h)(0x623726FB)
+I (F:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\..\..\Libary\CMSIS\Include\core_cmInstr.h)(0x623726FB)
+I (..\..\..\..\Libary\CMSIS\Include\cmsis_armcc.h)(0x623726FB)
+I (..\..\..\..\Libary\CMSIS\Include\core_cmFunc.h)(0x623726FB)
+I (..\..\..\..\Libary\Device\CMS32F033\Include\system_cms_m0.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\gpio.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\acmp.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\adc0.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\adc1.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\ccp.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\crc.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\epwm.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\hwdiv.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\i2c.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\opa.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\pga.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\ssp.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\timer.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\uart.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\wdt.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\wwdt.h)(0x623726FB)
+F (..\..\..\..\Libary\StdDriver\src\uart.c)(0x623726FB)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\Libary\CMSIS\Include -I ..\..\..\..\Libary\Device\CMS32F033\Include -I ..\..\..\..\Libary\StdDriver\inc -I ..\Lan_code -I ..\code-I.\RTE\_Target_1-IC:\Users\Administrator\AppData\Local\Arm\Packs\Cmsemicon\CMS32-Series\1.0.1\Device\CMS32F033\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DCMS32F033-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (..\..\..\..\Libary\StdDriver\inc\uart.h)(0x623726FB)
+I (..\..\..\..\Libary\Device\CMS32F033\Include\cms_m0.h)(0x623726FB)
+I (..\..\..\..\Libary\CMSIS\Include\core_cm0.h)(0x623726FB)
+I (F:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\..\..\Libary\CMSIS\Include\core_cmInstr.h)(0x623726FB)
+I (..\..\..\..\Libary\CMSIS\Include\cmsis_armcc.h)(0x623726FB)
+I (..\..\..\..\Libary\CMSIS\Include\core_cmFunc.h)(0x623726FB)
+I (..\..\..\..\Libary\Device\CMS32F033\Include\system_cms_m0.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\system.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\gpio.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\acmp.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\adc0.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\adc1.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\ccp.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\crc.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\epwm.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\hwdiv.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\i2c.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\opa.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\pga.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\ssp.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\timer.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\wdt.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\wwdt.h)(0x623726FB)
+F (..\..\..\..\Libary\StdDriver\src\retarget.c)(0x623726FB)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\Libary\CMSIS\Include -I ..\..\..\..\Libary\Device\CMS32F033\Include -I ..\..\..\..\Libary\StdDriver\inc -I ..\Lan_code -I ..\code-I.\RTE\_Target_1-IC:\Users\Administrator\AppData\Local\Arm\Packs\Cmsemicon\CMS32-Series\1.0.1\Device\CMS32F033\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DCMS32F033-o .\objects\retarget.o --omf_browse .\objects\retarget.crf --depend .\objects\retarget.d)
+I (..\..\..\..\Libary\Device\CMS32F033\Include\cms_m0.h)(0x623726FB)
+I (..\..\..\..\Libary\CMSIS\Include\core_cm0.h)(0x623726FB)
+I (F:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\..\..\Libary\CMSIS\Include\core_cmInstr.h)(0x623726FB)
+I (..\..\..\..\Libary\CMSIS\Include\cmsis_armcc.h)(0x623726FB)
+I (..\..\..\..\Libary\CMSIS\Include\core_cmFunc.h)(0x623726FB)
+I (..\..\..\..\Libary\Device\CMS32F033\Include\system_cms_m0.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\system.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\gpio.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\acmp.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\adc0.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\adc1.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\ccp.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\crc.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\epwm.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\hwdiv.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\i2c.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\opa.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\pga.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\ssp.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\timer.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\uart.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\wdt.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\wwdt.h)(0x623726FB)
+I (F:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+F (..\..\..\..\Libary\StdDriver\src\timer.c)(0x623726FB)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\Libary\CMSIS\Include -I ..\..\..\..\Libary\Device\CMS32F033\Include -I ..\..\..\..\Libary\StdDriver\inc -I ..\Lan_code -I ..\code-I.\RTE\_Target_1-IC:\Users\Administrator\AppData\Local\Arm\Packs\Cmsemicon\CMS32-Series\1.0.1\Device\CMS32F033\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DCMS32F033-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (..\..\..\..\Libary\StdDriver\inc\timer.h)(0x623726FB)
+I (..\..\..\..\Libary\Device\CMS32F033\Include\cms_m0.h)(0x623726FB)
+I (..\..\..\..\Libary\CMSIS\Include\core_cm0.h)(0x623726FB)
+I (F:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\..\..\Libary\CMSIS\Include\core_cmInstr.h)(0x623726FB)
+I (..\..\..\..\Libary\CMSIS\Include\cmsis_armcc.h)(0x623726FB)
+I (..\..\..\..\Libary\CMSIS\Include\core_cmFunc.h)(0x623726FB)
+I (..\..\..\..\Libary\Device\CMS32F033\Include\system_cms_m0.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\system.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\gpio.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\acmp.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\adc0.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\adc1.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\ccp.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\crc.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\epwm.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\hwdiv.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\i2c.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\opa.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\pga.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\ssp.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\uart.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\wdt.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\wwdt.h)(0x623726FB)
+F (..\code\main.c)(0x623758B6)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\Libary\CMSIS\Include -I ..\..\..\..\Libary\Device\CMS32F033\Include -I ..\..\..\..\Libary\StdDriver\inc -I ..\Lan_code -I ..\code-I.\RTE\_Target_1-IC:\Users\Administrator\AppData\Local\Arm\Packs\Cmsemicon\CMS32-Series\1.0.1\Device\CMS32F033\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DCMS32F033-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\Lan_code\public.h)(0x62375612)
+I (..\..\..\..\Libary\Device\CMS32F033\Include\cms_m0.h)(0x623726FB)
+I (..\..\..\..\Libary\CMSIS\Include\core_cm0.h)(0x623726FB)
+I (F:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\..\..\Libary\CMSIS\Include\core_cmInstr.h)(0x623726FB)
+I (..\..\..\..\Libary\CMSIS\Include\cmsis_armcc.h)(0x623726FB)
+I (..\..\..\..\Libary\CMSIS\Include\core_cmFunc.h)(0x623726FB)
+I (..\..\..\..\Libary\Device\CMS32F033\Include\system_cms_m0.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\system.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\gpio.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\acmp.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\adc0.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\adc1.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\ccp.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\crc.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\epwm.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\hwdiv.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\i2c.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\opa.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\pga.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\ssp.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\timer.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\uart.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\wdt.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\wwdt.h)(0x623726FB)
+I (..\code\demo_uart.h)(0x623726FB)
+I (F:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\code\demo_timer.h)(0x623726FB)
+I (..\Lan_code\SMG.h)(0x623726FB)
+I (..\Lan_code\AD_Key.h)(0x623726FB)
+I (..\Lan_code\TX1812_5050.h)(0x6237550C)
+I (..\Lan_code\CXN4016.h)(0x623726FB)
+F (..\code\isr.c)(0x62374EB9)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\Libary\CMSIS\Include -I ..\..\..\..\Libary\Device\CMS32F033\Include -I ..\..\..\..\Libary\StdDriver\inc -I ..\Lan_code -I ..\code-I.\RTE\_Target_1-IC:\Users\Administrator\AppData\Local\Arm\Packs\Cmsemicon\CMS32-Series\1.0.1\Device\CMS32F033\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DCMS32F033-o .\objects\isr.o --omf_browse .\objects\isr.crf --depend .\objects\isr.d)
+I (..\..\..\..\Libary\Device\CMS32F033\Include\cms_m0.h)(0x623726FB)
+I (..\..\..\..\Libary\CMSIS\Include\core_cm0.h)(0x623726FB)
+I (F:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\..\..\Libary\CMSIS\Include\core_cmInstr.h)(0x623726FB)
+I (..\..\..\..\Libary\CMSIS\Include\cmsis_armcc.h)(0x623726FB)
+I (..\..\..\..\Libary\CMSIS\Include\core_cmFunc.h)(0x623726FB)
+I (..\..\..\..\Libary\Device\CMS32F033\Include\system_cms_m0.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\system.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\gpio.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\acmp.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\adc0.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\adc1.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\ccp.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\crc.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\epwm.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\hwdiv.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\i2c.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\opa.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\pga.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\ssp.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\timer.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\uart.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\wdt.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\wwdt.h)(0x623726FB)
+I (..\code\demo_uart.h)(0x623726FB)
+I (F:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\Lan_code\public.h)(0x62375612)
+I (..\code\demo_timer.h)(0x623726FB)
+I (..\Lan_code\TX1812_5050.h)(0x6237550C)
+F (..\code\demo_uart.c)(0x623726FB)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\Libary\CMSIS\Include -I ..\..\..\..\Libary\Device\CMS32F033\Include -I ..\..\..\..\Libary\StdDriver\inc -I ..\Lan_code -I ..\code-I.\RTE\_Target_1-IC:\Users\Administrator\AppData\Local\Arm\Packs\Cmsemicon\CMS32-Series\1.0.1\Device\CMS32F033\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DCMS32F033-o .\objects\demo_uart.o --omf_browse .\objects\demo_uart.crf --depend .\objects\demo_uart.d)
+I (..\code\demo_uart.h)(0x623726FB)
+I (..\..\..\..\Libary\Device\CMS32F033\Include\cms_m0.h)(0x623726FB)
+I (..\..\..\..\Libary\CMSIS\Include\core_cm0.h)(0x623726FB)
+I (F:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\..\..\Libary\CMSIS\Include\core_cmInstr.h)(0x623726FB)
+I (..\..\..\..\Libary\CMSIS\Include\cmsis_armcc.h)(0x623726FB)
+I (..\..\..\..\Libary\CMSIS\Include\core_cmFunc.h)(0x623726FB)
+I (..\..\..\..\Libary\Device\CMS32F033\Include\system_cms_m0.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\system.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\gpio.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\acmp.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\adc0.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\adc1.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\ccp.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\crc.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\epwm.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\hwdiv.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\i2c.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\opa.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\pga.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\ssp.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\timer.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\uart.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\wdt.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\wwdt.h)(0x623726FB)
+F (..\code\demo_timer.c)(0x623726FB)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\Libary\CMSIS\Include -I ..\..\..\..\Libary\Device\CMS32F033\Include -I ..\..\..\..\Libary\StdDriver\inc -I ..\Lan_code -I ..\code-I.\RTE\_Target_1-IC:\Users\Administrator\AppData\Local\Arm\Packs\Cmsemicon\CMS32-Series\1.0.1\Device\CMS32F033\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DCMS32F033-o .\objects\demo_timer.o --omf_browse .\objects\demo_timer.crf --depend .\objects\demo_timer.d)
+I (..\code\demo_timer.h)(0x623726FB)
+I (..\..\..\..\Libary\Device\CMS32F033\Include\cms_m0.h)(0x623726FB)
+I (..\..\..\..\Libary\CMSIS\Include\core_cm0.h)(0x623726FB)
+I (F:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\..\..\Libary\CMSIS\Include\core_cmInstr.h)(0x623726FB)
+I (..\..\..\..\Libary\CMSIS\Include\cmsis_armcc.h)(0x623726FB)
+I (..\..\..\..\Libary\CMSIS\Include\core_cmFunc.h)(0x623726FB)
+I (..\..\..\..\Libary\Device\CMS32F033\Include\system_cms_m0.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\system.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\gpio.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\acmp.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\adc0.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\adc1.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\ccp.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\crc.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\epwm.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\hwdiv.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\i2c.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\opa.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\pga.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\ssp.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\timer.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\uart.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\wdt.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\wwdt.h)(0x623726FB)
+F (..\Lan_code\SMG.c)(0x623726FB)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\Libary\CMSIS\Include -I ..\..\..\..\Libary\Device\CMS32F033\Include -I ..\..\..\..\Libary\StdDriver\inc -I ..\Lan_code -I ..\code-I.\RTE\_Target_1-IC:\Users\Administrator\AppData\Local\Arm\Packs\Cmsemicon\CMS32-Series\1.0.1\Device\CMS32F033\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DCMS32F033-o .\objects\smg.o --omf_browse .\objects\smg.crf --depend .\objects\smg.d)
+I (..\Lan_code\SMG.h)(0x623726FB)
+I (..\Lan_code\public.h)(0x62375612)
+I (..\..\..\..\Libary\Device\CMS32F033\Include\cms_m0.h)(0x623726FB)
+I (..\..\..\..\Libary\CMSIS\Include\core_cm0.h)(0x623726FB)
+I (F:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\..\..\Libary\CMSIS\Include\core_cmInstr.h)(0x623726FB)
+I (..\..\..\..\Libary\CMSIS\Include\cmsis_armcc.h)(0x623726FB)
+I (..\..\..\..\Libary\CMSIS\Include\core_cmFunc.h)(0x623726FB)
+I (..\..\..\..\Libary\Device\CMS32F033\Include\system_cms_m0.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\system.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\gpio.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\acmp.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\adc0.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\adc1.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\ccp.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\crc.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\epwm.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\hwdiv.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\i2c.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\opa.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\pga.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\ssp.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\timer.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\uart.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\wdt.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\wwdt.h)(0x623726FB)
+I (..\code\demo_uart.h)(0x623726FB)
+I (F:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\code\demo_timer.h)(0x623726FB)
+F (..\Lan_code\AD_Key.c)(0x62374192)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\Libary\CMSIS\Include -I ..\..\..\..\Libary\Device\CMS32F033\Include -I ..\..\..\..\Libary\StdDriver\inc -I ..\Lan_code -I ..\code-I.\RTE\_Target_1-IC:\Users\Administrator\AppData\Local\Arm\Packs\Cmsemicon\CMS32-Series\1.0.1\Device\CMS32F033\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DCMS32F033-o .\objects\ad_key.o --omf_browse .\objects\ad_key.crf --depend .\objects\ad_key.d)
+I (..\Lan_code\AD_Key.h)(0x623726FB)
+I (..\Lan_code\public.h)(0x62375612)
+I (..\..\..\..\Libary\Device\CMS32F033\Include\cms_m0.h)(0x623726FB)
+I (..\..\..\..\Libary\CMSIS\Include\core_cm0.h)(0x623726FB)
+I (F:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\..\..\Libary\CMSIS\Include\core_cmInstr.h)(0x623726FB)
+I (..\..\..\..\Libary\CMSIS\Include\cmsis_armcc.h)(0x623726FB)
+I (..\..\..\..\Libary\CMSIS\Include\core_cmFunc.h)(0x623726FB)
+I (..\..\..\..\Libary\Device\CMS32F033\Include\system_cms_m0.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\system.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\gpio.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\acmp.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\adc0.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\adc1.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\ccp.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\crc.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\epwm.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\hwdiv.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\i2c.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\opa.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\pga.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\ssp.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\timer.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\uart.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\wdt.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\wwdt.h)(0x623726FB)
+I (..\code\demo_uart.h)(0x623726FB)
+I (F:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\code\demo_timer.h)(0x623726FB)
+I (..\Lan_code\SMG.h)(0x623726FB)
+I (..\Lan_code\TX1812_5050.h)(0x6237550C)
+I (..\Lan_code\CXN4016.h)(0x623726FB)
+F (..\Lan_code\CXN4016.c)(0x623726FB)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\Libary\CMSIS\Include -I ..\..\..\..\Libary\Device\CMS32F033\Include -I ..\..\..\..\Libary\StdDriver\inc -I ..\Lan_code -I ..\code-I.\RTE\_Target_1-IC:\Users\Administrator\AppData\Local\Arm\Packs\Cmsemicon\CMS32-Series\1.0.1\Device\CMS32F033\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DCMS32F033-o .\objects\cxn4016.o --omf_browse .\objects\cxn4016.crf --depend .\objects\cxn4016.d)
+I (..\Lan_code\CXN4016.h)(0x623726FB)
+I (..\Lan_code\public.h)(0x62375612)
+I (..\..\..\..\Libary\Device\CMS32F033\Include\cms_m0.h)(0x623726FB)
+I (..\..\..\..\Libary\CMSIS\Include\core_cm0.h)(0x623726FB)
+I (F:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\..\..\Libary\CMSIS\Include\core_cmInstr.h)(0x623726FB)
+I (..\..\..\..\Libary\CMSIS\Include\cmsis_armcc.h)(0x623726FB)
+I (..\..\..\..\Libary\CMSIS\Include\core_cmFunc.h)(0x623726FB)
+I (..\..\..\..\Libary\Device\CMS32F033\Include\system_cms_m0.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\system.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\gpio.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\acmp.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\adc0.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\adc1.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\ccp.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\crc.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\epwm.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\hwdiv.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\i2c.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\opa.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\pga.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\ssp.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\timer.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\uart.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\wdt.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\wwdt.h)(0x623726FB)
+I (..\code\demo_uart.h)(0x623726FB)
+I (F:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\code\demo_timer.h)(0x623726FB)
+F (..\Lan_code\TX1812_5050.c)(0x62375884)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\..\..\..\Libary\CMSIS\Include -I ..\..\..\..\Libary\Device\CMS32F033\Include -I ..\..\..\..\Libary\StdDriver\inc -I ..\Lan_code -I ..\code-I.\RTE\_Target_1-IC:\Users\Administrator\AppData\Local\Arm\Packs\Cmsemicon\CMS32-Series\1.0.1\Device\CMS32F033\Include-IF:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DCMS32F033-o .\objects\tx1812_5050.o --omf_browse .\objects\tx1812_5050.crf --depend .\objects\tx1812_5050.d)
+I (..\Lan_code\TX1812_5050.h)(0x6237550C)
+I (..\Lan_code\public.h)(0x62375612)
+I (..\..\..\..\Libary\Device\CMS32F033\Include\cms_m0.h)(0x623726FB)
+I (..\..\..\..\Libary\CMSIS\Include\core_cm0.h)(0x623726FB)
+I (F:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\..\..\..\Libary\CMSIS\Include\core_cmInstr.h)(0x623726FB)
+I (..\..\..\..\Libary\CMSIS\Include\cmsis_armcc.h)(0x623726FB)
+I (..\..\..\..\Libary\CMSIS\Include\core_cmFunc.h)(0x623726FB)
+I (..\..\..\..\Libary\Device\CMS32F033\Include\system_cms_m0.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\system.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\gpio.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\acmp.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\adc0.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\adc1.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\ccp.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\crc.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\epwm.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\hwdiv.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\i2c.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\opa.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\pga.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\ssp.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\timer.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\uart.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\wdt.h)(0x623726FB)
+I (..\..\..\..\Libary\StdDriver\inc\wwdt.h)(0x623726FB)
+I (..\code\demo_uart.h)(0x623726FB)
+I (F:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\code\demo_timer.h)(0x623726FB)

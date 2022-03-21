@@ -1,0 +1,19 @@
+--cpu Cortex-M0
+".\objects\startup_cms_m0.o"
+".\objects\system_cms_m0.o"
+".\objects\system.o"
+".\objects\uart.o"
+".\objects\retarget.o"
+".\objects\timer.o"
+".\objects\main.o"
+".\objects\isr.o"
+".\objects\demo_uart.o"
+".\objects\demo_timer.o"
+".\objects\smg.o"
+".\objects\ad_key.o"
+".\objects\cxn4016.o"
+".\objects\tx1812_5050.o"
+--strict --scatter ".\Objects\Porject.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Porject.map" -o .\Objects\Porject.axf
